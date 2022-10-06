@@ -1,9 +1,10 @@
-# Election-Analysis
+Election-Analysis
 Python 3..9.12
+
 #### Overview
 The purpose of this Analysis was to help with a local congressional election audit. We were tasked with calculating the total number of votes. Then we were tasked with calculating how many votes specific candicates recieved. From there we could determine what percentage of the votes each candidate recieved. This allowed us to determine which candidate won the election.
 
-# Resources
+### Resources
 python version 3.9.12
 VS Code 1.71.2
 election_results.csv
