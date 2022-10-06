@@ -3,16 +3,17 @@ Python 3..9.12
 #### Overview
 The purpose of this Analysis was to help with a local congressional election audit. We were tasked with calculating the total number of votes. Then we were tasked with calculating how many votes specific candicates recieved. From there we could determine what percentage of the votes each candidate recieved. This allowed us to determine which candidate won the election.
 
-## Resources
+# Resources
 python version 3.9.12
 VS Code 1.71.2
 election_results.csv
 election_results.txt
-Election - Audit Results
+
+### Election - Audit Results
 There were a total of 369,711 votes casted in this election.
 I found the total number of votes through this piece of code
 election_results = ( f"\nElection Results\n" f"-------------------------\n" f"Total Votes: {total_votes:,}\n" f"-------------------------\n\n" f"County Votes:\n") print(election_results, end="")
-There county's involved were Denver, Jefferson, and Arapahoe.
+The county's involved were Denver, Jefferson, and Arapahoe.
 
 I found county results through
 county_results = f"{county_name}: {county_vote_percentage:.1f}% ({county_vote:,})\n" print(county_results)
