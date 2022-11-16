@@ -20,18 +20,16 @@ The if statement that determined the winning county and its vote count was
             winning_c_percentage = c_vote_percentage
             
 We determined it was Devner. After finding out which county it was I printed it with 
-   
-   
-   winning_county_summary = (
+       
+    winning_county_summary = (
         f"-------------------------\n"
         f"Largest County Turnout: {winning_county}\n"
         #f"Largest Vote Count: {winning_county_count:,}\n"
         #f"Largest Percentage: {winning_c_percentage:.1f}%\n"
         f"-------------------------\n")
     print(winning_county_summary). 
-    
-    
-    This code displayed the Largest County Turnout as the winning_county which was Denver. 
+   
+   This code displayed the Largest County Turnout as the winning_county which was Denver. 
 
 Denver had 82.8% or (306,055) of the votes.
 Jefferson had 10.5% or (38,855) of the votes.
