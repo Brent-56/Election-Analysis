@@ -13,10 +13,12 @@ election_results.txt
 ### Election - Audit Results
 There were a total of 369,711 votes casted in this election.
 The if statement that determined the winning county and its vote count was 
-        if (c_votes > winning_county_count) and (c_vote_percentage > winning_c_percentage):
+       
+       if (c_votes > winning_county_count) and (c_vote_percentage > winning_c_percentage):
             winning_county_count = c_votes
             winning_county = county_name
             winning_c_percentage = c_vote_percentage
+            
 We determined it was Devner. After finding out which county it was I printed it with 
     winning_county_summary = (
         
