@@ -12,17 +12,26 @@ election_results.txt
 
 ### Election - Audit Results
 There were a total of 369,711 votes casted in this election.
-I found the total number of votes through this piece of code
-election_results = ( f"\nElection Results\n" f"-------------------------\n" f"Total Votes: {total_votes:,}\n" f"-------------------------\n\n" f"County Votes:\n") print(election_results, end="")
-The county's involved were Denver, Jefferson, and Arapahoe.
-
-I found county results through
-county_results = f"{county_name}: {county_vote_percentage:.1f}% ({county_vote:,})\n" print(county_results)
+The if statement that determined the winning county and its vote count was 
+        if (c_votes > winning_county_count) and (c_vote_percentage > winning_c_percentage):
+            winning_county_count = c_votes
+            winning_county = county_name
+            winning_c_percentage = c_vote_percentage
+We determined it was Devner. After finding out which county it was I printed it with 
+    winning_county_summary = (
+        
+        f"-------------------------\n"
+        f"Largest County Turnout: {winning_county}\n"
+        #f"Largest Vote Count: {winning_county_count:,}\n"
+        #f"Largest Percentage: {winning_c_percentage:.1f}%\n"
+        f"-------------------------\n")
+    print(winning_county_summary). 
+    
+    This code displayed the Largest County Turnout as the winning_county which was Denver. 
 
 Denver had 82.8% or (306,055) of the votes.
 Jefferson had 10.5% or (38,855) of the votes.
 Arapahoe had 6.7% or (24,801) of the votes.
-Denver had the largest number of votes.
 
 The candidates who ran were Charles Casper Stockham, Diane Degette, and Raymon Anthony Doane.
 
