@@ -21,14 +21,15 @@ The if statement that determined the winning county and its vote count was
             
 We determined it was Devner. After finding out which county it was I printed it with 
    
+   
    winning_county_summary = (
-        
         f"-------------------------\n"
         f"Largest County Turnout: {winning_county}\n"
         #f"Largest Vote Count: {winning_county_count:,}\n"
         #f"Largest Percentage: {winning_c_percentage:.1f}%\n"
         f"-------------------------\n")
     print(winning_county_summary). 
+    
     
     This code displayed the Largest County Turnout as the winning_county which was Denver. 
 
